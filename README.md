@@ -14,7 +14,7 @@ It might spins around but at the end you will get the HTML.
 ```
 
 ```bash
-curl -X POST http://localhost:5000/proxy \
+curl -X POST http://localhost:5001/proxy \
   -H "Content-Type: application/json" \
-  -d '{"url": "https://www.idealista.it/affitto-case/bologna-bologna/", "user_agent": "Mozilla/5.0", "headers": {"Accept-Language": "en-US,en;q=0.9"}}'
+  -d '{"url": "https://example.com", "user_agent": "Mozilla/5.0", "headers": {"Accept-Language": "en-US,en;q=0.9"}}'
 ```
