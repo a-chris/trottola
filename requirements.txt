@@ -1,0 +1,5 @@
+flask==3.1
+requests==2.32
+python-dotenv==1.0.0
+curl_cffi==0.9
+ua-generator==2.0.3

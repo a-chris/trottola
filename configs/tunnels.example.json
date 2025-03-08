@@ -1,0 +1,19 @@
+{
+  "tunnels": [
+    {
+      "type": "squid",
+      "host": "myhost.com",
+      "port": 3128,
+      "username": "squid",
+      "password": "squid"
+    },
+    {
+      "type": "curl-impersonate",
+      "browser": "chrome131"
+    },
+    {
+      "type": "curl-impersonate",
+      "browser": "firefox135"
+    }
+  ]
+}
